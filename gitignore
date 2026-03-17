@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Streamlit
+.streamlit/
+
+# Data files (si vous ne voulez pas partager vos données)
+data/*.csv
+!data/catalogue_exemple.csv  # Si vous voulez garder un exemple
+
+# Model files (trop volumineux pour GitHub)
+models/
+*.bin
+*.safetensors
+*.pkl
+data/embeddings/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
