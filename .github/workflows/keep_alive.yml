@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Send Request to Streamlit App
         run: |
-          curl -I -L https://VOTRE-APPLICATION.streamlit.app
+          curl -I -L https://autisme-diffusion-ia.streamlit.app
