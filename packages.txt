@@ -1,2 +1,0 @@
-# packages.txt
-python-3.11
