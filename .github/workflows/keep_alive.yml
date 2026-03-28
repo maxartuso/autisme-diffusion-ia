@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Send Request to Streamlit App
         run: |
-          curl -I -L https://autisme-diffusion-ia.streamlit.app
+          curl -L --max-redirs 5 -s -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" https://autisme-diffusion-ia.streamlit.app || true
